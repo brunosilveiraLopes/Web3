@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
 	public class Main {
-	    private static final String RESULTADO = "resultado È %s (Bruno Silveira Lopes)";
+	    private static final String RESULTADO = "resultado √© %s (Bruno Silveira Lopes Web3)";
 
 	    public static void main(String[] args) {
-	        System.out.println("Calculos FÌsicos\n========");
+	        System.out.println("Calculos F√≠sicos\n========");
 
 	        try {
 	            System.out.println(
-	                    "Escolha a operaÁ„o: \n[1] - ForÁa Peso\n[2] - ForÁa Centripeta\n[3] - Impulso\n[4] - ForÁa El·stica\n[5] - Velocidade MÈdia\n[6] - Movimento RetilÌneo Uniforme(MRU)\n[7] - Movimento RetilÌneo Uniformemte Variado(MRUV) ");
+	                    "Escolha a opera√ß√£o: \n[1] - For√ßa Peso\n[2] - For√ßa Centripeta\n[3] - Impulso\n[4] - For√ßa El√°stica\n[5] - Velocidade M√©dia\n[6] - Movimento Retil√≠neo Uniforme(MRU)\n[7] - Movimento Retil√≠neo Uniformemte Variado(MRUV) ");
 	            Scanner teclado = new Scanner(System.in);
 	            int op = teclado.nextInt();
 
@@ -16,7 +16,7 @@ import java.util.Scanner;
 
 	                System.out.println("Digite o valor da massa: ");
 	                Float num1 = teclado.nextFloat();
-	                System.out.println("Digite o valor da aceleraÁ„o: ");
+	                System.out.println("Digite o valor da acelera√ß√£o: ");
 	                Float num2 = teclado.nextFloat();
 
 	                forcaPeso(num1, num2);
@@ -37,7 +37,7 @@ import java.util.Scanner;
 	                teclado.close();
 	            } else if (op == 3) {
 
-	                System.out.println("Digite o valor da forÁa aplicada: ");
+	                System.out.println("Digite o valor da for√ßa aplicada: ");
 	                Float num1 = teclado.nextFloat();
 	                System.out.println("Digite o tempo: ");
 	                Float num2 = teclado.nextFloat();
@@ -47,9 +47,9 @@ import java.util.Scanner;
 	                teclado.close();
 	            } else if (op == 4) {
 
-	                System.out.println("Digite a constante el·stica: ");
+	                System.out.println("Digite a constante el√°stica: ");
 	                Float num1 = teclado.nextFloat();
-	                System.out.println("Digite a variaÁ„o el·stica: ");
+	                System.out.println("Digite a varia√ß√£o el√°stica: ");
 	                Float num2 = teclado.nextFloat();
 
 	                forcaElastica(num1, num2);
@@ -67,7 +67,7 @@ import java.util.Scanner;
 	                teclado.close();
 	            } else if (op == 6) {
 
-	                System.out.println("Digite a posiÁ„o inicial: ");
+	                System.out.println("Digite a posi√ß√£o inicial: ");
 	                Float num1 = teclado.nextFloat();
 	                System.out.println("Digite a velocidade: ");
 	                Float num2 = teclado.nextFloat();
@@ -81,7 +81,7 @@ import java.util.Scanner;
 
 	                System.out.println("Digite a velocidade inicial: ");
 	                Float num1 = teclado.nextFloat();
-	                System.out.println("Digite a aceleraÁ„o: ");
+	                System.out.println("Digite a acelera√ß√£o: ");
 	                Float num2 = teclado.nextFloat();
 	                System.out.println("Digite o tempo decorrido: ");
 	                Float num3 = teclado.nextFloat();
